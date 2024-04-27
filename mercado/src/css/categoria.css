@@ -1,0 +1,44 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.fundo2{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+   
+   
+   }
+   .cat{
+     background-color: rgb(255, 255, 255);
+     margin-top: 28px;
+     border:  solid 2px rgb(146, 146, 146);
+     padding: 3px;
+   }
+   
+   .categoria nav a{
+     font-size: 23px;
+     text-decoration: none;
+     padding-right: 142px;
+     color: black;
+     
+     
+     
+   }
+   .name{
+     padding-right: 85px;
+     margin-top: -5px;
+   }
+   
+   .categoria nav a:hover{
+     color: hsl(51, 100%, 50%);
+     transition: 1s;
+     
+   }
+   
+   
+   
