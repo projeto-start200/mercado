@@ -1,209 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 *{
   padding: 0;
   margin: 0;
 }
-.fundo{
-  text-align: center;
-  justify-content: center;
-  display: flex;
-}
+
 header{
-  background-color: #0047AB;
-  padding: 9px;
-}
-.menu nav a{
-  text-decoration: none;
-  font-size: 20px;
-  color: rgb(255, 255, 255);
-  padding-right: 40px ;
-  margin-left: 110px;
-  
-  
-  
-  
- 
-  
-}
-.logo {
-  color: aliceblue;
-  
-  
-  
- 
-}
-.menu{
-  width: 59%;
-  
-}
-.but{
-  width: 20%;
- 
+  background-color: rgba(13, 13, 232, 0.804);
+  padding: 10px;
 }
 
-.but button{
-  padding: 4px 15px;
-  background-color: hsl(51, 100%, 50%);
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  ;
-
-  
-  
-}
-.menu nav a :hover{
-  
-  color: hsl(51, 100%, 50%);
-}
-
-.but  a {
-  color: rgb(249, 252, 255);
-  text-decoration: none;
-  font-size: 25px;
-  padding-right: 20px;
-}
-.but a :hover{
-  color: hsl(51, 100%, 50%);
- 
-}
-
-
-
-
-
-
-
-
-
-
-
-.fundo2{
- text-align: center;
- justify-content: center;
- display: flex;
- 
-
-
-}
-.cat{
-  background-color: rgb(255, 255, 255);
-  margin-top: 28px;
-  border:  solid 2px rgb(146, 146, 146);
-  padding: 3px;
-}
-
-.categoria nav a{
-  font-size: 23px;
-  text-decoration: none;
-  padding-right: 142px;
-  color: black;
-  
-  
-  
-}
-.name{
-  padding-right: 120px;
-  margin-top: -5px;
-}
-
-.categoria nav a:hover{
-  color: hsl(51, 100%, 50%);
-  transition: 1s;
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-.pesquisa{
+.tudo{
   text-align: center;
   justify-content: center;
-  margin-top: 30px;
-  
-}
-.pesquisa input{
-  padding: 10px 200px;
-  border-radius: 5px;
-  background-color: #D0DFF2;
-}
-.pesquisa ::placeholder{
-  font-size: 20px;
- 
-}
-
-
-.pesquisa button{
-  padding: 7px  ;
-  font-size: 19px;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.compra{
-  background-color: rgb(255, 255, 255);
-   margin-top: 90px;
-   width: 13%;
-   margin-left: 99px;
-   border: solid 2px rgb(135, 135, 135);
-   border-radius: 8px;
-   
-  
-}
-.fundo3{
-  text-align: center;
-  justify-content: center;
-  padding: 50px 0;
-  margin-top: 70px;
- 
-  
-}
-
-.val{
-  font-size: 16px;
-  color: #949494;
   display: flex;
-  margin-left: 30px;
+}
+
+.menu nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding-right: 50px;
+  font-size: 20px;
+ 
+  
+}
+h1{
+  color: rgb(255, 255, 255);
+  padding-right: 500px;
+  margin-top: -10px;
+}
+.but button{
+  padding: 2px 12px; 
+  background-color: gold;
+  border: none;
+  font-size: 14px;
+  margin-top: 1.5px;
+  border-radius: 5px;
   
 }
 
-.boot{
-  margin-top: 15%;
+.but button:hover {
+ background-color: rgb(255, 191, 0);
+ border: 1px solid firebrick;
+ transition: 0.5s;
+
 }
-.boot button{
-  padding: 10px 42px;
-  color: #ffffff;
-  background-color: #0047AB;
-  border-radius: 5px;
-  border: none;
-}
-
-
-
-
-
-
-
 
