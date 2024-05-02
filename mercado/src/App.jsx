@@ -1,14 +1,17 @@
 import { useState } from 'react'
-import Home from './componet.Pags/home/home/home'
+import Home from './paginas/home'
 import './App.css'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
-      <Home/>
-    </div>
+  <div>
+    <Home/>
+  </div>
+  
   )
 }
+
 export default App
