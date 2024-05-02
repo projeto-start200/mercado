@@ -1,23 +1,25 @@
 import React from 'react'
-import Icon from "./img/logo.jpg"
+import Icon from "./img/logo2024.jpg"
 import fd from "./img/foto.jpg"
+import styles from './styless/home.module.css'
 
 const menu = () => {
   return (
     
+   
     <header >
     
        
   
-    
+  
       <div className='tudo'>
       <img src={Icon} alt="" />
       <div className='menu'>
         <nav>
-            <a href="">inicio</a>
-            <a href="">sobre</a>
+            <a href="">Home</a>
+            <a href="">Quem somos</a>
             <a href="">contato</a>
-            <a href="">criar conta</a>
+            <a href="">inscreva-se</a>
             
         </nav>
          
@@ -27,6 +29,7 @@ const menu = () => {
           </div>
     </div>
       
+      <div className='linha'></div>
     
 </header>
 

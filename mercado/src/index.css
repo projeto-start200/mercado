@@ -1,10 +1,11 @@
+
 *{
   padding: 0;
   margin: 0;
 }
 
 header{
-  background-color: rgba(255, 255, 255, 0.804);
+  background-color:#5AB8C2 ;
   padding: 10px;
   margin-top: 60px;
   margin-right:120px;
@@ -24,7 +25,7 @@ header{
 
 .menu nav a {
   text-decoration: none;
-  color: rgb(107, 184, 255);
+  color: rgb(255, 255, 255);
   padding-right: 50px;
   font-size: 20px;
  
@@ -43,8 +44,8 @@ img{
 }
 .but button{
   padding: 2px 12px; 
-  background-color: rgba(0, 21, 255, 0.347);
-  border: none;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
   font-size: 14px;
   margin-top: 1.5px;
   border-radius: 5px;
@@ -58,8 +59,15 @@ img{
 
 }
 body{
-  background-color: rgb(107, 184, 255);
+  background-color: #426a6f ;
   
+}
+.linha{
+  background-color: rgb(255, 255, 255);
+  padding: 2px;
+  margin-top: 15px;
+  margin-left: 55px;
+  margin-right: 55px;
 }
 
 
@@ -71,3 +79,29 @@ body{
 
 
 
+
+.logo1 {
+  text-align: center;
+ margin-top: -440px;
+ color: rgb(255, 255, 255);
+ font-size: 40px;
+ margin-right: 745px;
+}
+
+
+
+.inscreva{
+  text-align: center;
+  margin-right: 756px;
+  margin-top: 50px;
+}
+.inscreva button{
+  padding: 7px 35px;
+  border-radius: 6px;
+  border: 1px solid black;
+  font-size: 19px;
+}
+.inscreva button:hover{
+  background-color: gold;
+  transition: 0.5s;
+}
