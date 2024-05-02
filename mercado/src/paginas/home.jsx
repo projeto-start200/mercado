@@ -1,6 +1,6 @@
 import React from 'react'
 import Menu from '../componets/componets.past/menu'
-
+import Fg from '../componets/componets.past/img/fundodesk.png'
 
 const home = () => {
   return (
@@ -19,7 +19,12 @@ const home = () => {
     </div>
     
    
+    <div className='ft'>
+      <img className='logoo' src={Fg} alt="" />
+    </div>
  </div>
+  
+
   )
 }
 

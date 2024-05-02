@@ -78,6 +78,11 @@ body{
 
 
 
+            
+
+
+
+
 
 
 .logo1 {
@@ -104,4 +109,15 @@ body{
 .inscreva button:hover{
   background-color: gold;
   transition: 0.5s;
+}
+.ft{
+  margin-left: 999px;
+  margin-top: -250px;
+ 
+}
+.logoo{
+  height: 400px;
+} 
+
+  
 }
