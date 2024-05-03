@@ -1,26 +1,27 @@
 import React from 'react'
 import Menu from '../componets/componets.past/menu'
 import Fg from '../componets/componets.past/img/fundodesk.png'
+import styleH from '../pags.style/home.module.css'
 
 const home = () => {
   return (
     <div>
 
  <Menu/>
-   <div className='logo1'>
+   <div className={styleH['logo1']}>
     <p> Unidos em Generosidade: </p>
     <p> Mesa solidaria,</p>
     <p>alimentando corações e</p>
     <p>nutrindo esperanças!</p>
    </div>
 
-    <div className='inscreva'>
+    <div className={styleH['inscreva']}>
       <button>inscreva-se</button>
     </div>
     
    
-    <div className='ft'>
-      <img className='logoo' src={Fg} alt="" />
+    <div className={styleH['ft']}>
+      <img className={styleH['logoo']} src={Fg} alt="" />
     </div>
  </div>
   

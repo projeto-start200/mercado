@@ -7,14 +7,15 @@ const menu = () => {
   return (
     
    
-    <header >
+    <header  >
+    
     
        
   
-  
-      <div className='tudo'>
+      <div className={styles['fundo']}>
+      <div className={styles['tudo']}>
       <img src={Icon} alt="" />
-      <div className='menu'>
+      <div className={styles['menu']}>
         <nav>
             <a href="">Home</a>
             <a href="">Quem somos</a>
@@ -24,13 +25,13 @@ const menu = () => {
         </nav>
          
       </div>
-      <div className='but'>
+      <div className={styles['but']}>
           <button>Entrar</button>
           </div>
     </div>
       
-      <div className='linha'></div>
-    
+      <div className={styles['linha']}></div>
+      </div>
 </header>
 
 

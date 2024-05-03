@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import Home from './paginas/home'
-import './App.css'
+import Sobre from './paginas/sobre'
+import Objetivos from './paginas/objetivos'
+
 
 
 function App() {
@@ -8,7 +10,7 @@ function App() {
 
   return (
   <div>
-    <Home/>
+    <Objetivos/>
   </div>
   
   )
