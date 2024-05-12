@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import Home from './paginas/home'
-import Sobre from './paginas/sobre'
-import Objetivos from './paginas/objetivos'
+
+import Tela from './paginas/telap'
+
 
 
 
@@ -10,7 +10,9 @@ function App() {
 
   return (
   <div>
-    <Objetivos/>
+    <Tela/>
+    
+    
   </div>
   
   )

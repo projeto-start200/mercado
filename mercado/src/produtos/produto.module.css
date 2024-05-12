@@ -1,0 +1,200 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+
+
+.imagen{
+    margin-top: -25px;
+}
+
+.imagen img{
+   height: 110px; 
+   border-radius: 3px;
+   cursor: pointer;
+   transition: 0.5s;
+   
+  
+   
+   
+   
+   
+  
+}
+
+.imagen  :hover{
+    height: 111px;
+    rotate: 90em;
+    transition: 0.s5;
+    border-radius: 20px;
+    
+    
+}
+
+
+.fundo{
+    background-color: rgb(239, 239, 239);
+    margin-top: 50px;
+    padding: 10px 0;
+    margin-left: 23%;
+    margin-right: 23%;
+    padding: 50px 0;
+    border-radius: 3px;
+ 
+    
+}
+
+
+.tudoo{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.titulo{
+    
+    font-size: 25px;
+    margin-right: 70px;
+    margin-top: 25px;
+    
+  
+    
+
+}
+.subtitulo {
+    color: rgb(124, 124, 124);
+   font-size: 14px;
+   margin-top: 14px;  
+}
+ 
+.but {
+    text-align: center;
+    margin-top: 20px;
+   
+}
+.but button{
+   padding: 7px 30px;
+   background-color: rgb(255, 0, 0);
+   border: none;
+   color: rgb(255, 255, 255);
+   transition: 0.5s;
+   cursor: pointer;
+}
+.but  :hover{
+    
+    transition: 0.5s;
+    padding: 8px 35px;
+    border: 2px;
+}
+
+.preco{
+    font-size: 18px;
+    margin-top: 13px;
+
+}
+
+.card{
+    padding-right: 1100px;
+}
+
+/* PRODUTO2*/
+ 
+
+
+
+
+.imagen1{
+    margin-top: -25px;
+}
+
+.imagen1 img{
+   height: 110px; 
+   border-radius: 3px;
+   cursor: pointer;
+   transition: 0.5s;
+   
+  
+   
+   
+   
+   
+  
+}
+
+.imagen1  :hover{
+    height: 111px;
+    rotate: 90em;
+    transition: 0.s5;
+    border-radius: 20px;
+    
+    
+}
+
+
+.fundo1{
+    background-color: rgb(239, 239, 239);
+    margin-top: 50px;
+    padding: 10px 0;
+    margin-left: 23%;
+    margin-right: 23%;
+    padding: 50px 0;
+    border-radius: 3px;
+ 
+    
+}
+
+
+.tudoo1{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.titulo1{
+    
+    font-size: 25px;
+    margin-right: 70px;
+    margin-top: 25px;
+    
+  
+    
+
+}
+.subtitulo1 {
+    color: rgb(124, 124, 124);
+   font-size: 14px;
+   margin-top: 14px;  
+}
+ 
+.but1 {
+    text-align: center;
+    margin-top: 20px;
+   
+}
+.but1 button{
+   padding: 7px 30px;
+   background-color: rgb(255, 0, 0);
+   border: none;
+   color: rgb(255, 255, 255);
+   transition: 0.5s;
+   cursor: pointer;
+}
+.but1  :hover{
+    
+    transition: 0.5s;
+    padding: 8px 35px;
+    border-radius: 8px;
+}
+
+.preco1{
+    font-size: 18px;
+    margin-top: 13px;
+
+}
+
+.card1{
+    padding-right: 1100px;
+}
