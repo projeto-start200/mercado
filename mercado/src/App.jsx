@@ -1,6 +1,5 @@
 import { useState } from 'react'
-
-import Tela from './paginas/telap'
+import Menu from './components/menu/menu'
 
 
 
@@ -10,7 +9,8 @@ function App() {
 
   return (
   <div>
-    <Tela/>
+    <Menu/>
+    
     
     
   </div>

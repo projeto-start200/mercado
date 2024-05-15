@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.linha{
+    background-color: rgb(163, 163, 163);
+    padding: 9px 0;
+    margin-top: 25px;
+}
+.navegacao nav {
+    text-align: center;
+}
+.navegacao nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 100px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.navegacao nav  :hover{
+   color: blue;
+}
